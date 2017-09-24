@@ -1,0 +1,48 @@
+/*
+Customization for Bootstrap v3.3.7 (http://getbootstrap.com)
+*/
+
+.alert {
+  margin-bottom: 15px;
+}
+
+a.list-group-item-warning.blcktxt,
+li.list-group-item-warning.blcktxt
+{
+  color: #000;
+}
+
+a.list-group-item-warning.blcktxt:hover,
+a.list-group-item-warning.blcktxt:focus,
+li.list-group-item-warning.blcktxt:hover,
+li.list-group-item-warning.blcktxt:focus
+{
+  color: #000;
+  background-color: #faf2cc;
+}
+
+span.head-label 
+{
+    margin-right: 5px; 
+    font-weight: bold;
+    /*float: left;
+    width: 145px;*/
+}
+
+/*ul.list-group,
+div.list-group
+{
+    margin-bottom: 0px;
+}*/
+
+.no-margin,
+.list-group.no-margin,
+.table.no-margin
+{
+    margin: 0px;
+}
+
+div.page-header
+{
+    margin: 20px 0 20px;
+}
